@@ -21,6 +21,11 @@ cmake $SOURCEDIR                               \
       -DCMAKE_INSTALL_PREFIX=$INSTALLROOT
 make ${JOBS+-j $JOBS} all
 make install
+pushd "$INSTALLROOT/lib"
+  for LIB in *.dylib; do
+    ln -nfs $LIB ${LIB/.dylib/.so}
+  done
+popd
 
 # Modulefile
 MODULEDIR="$INSTALLROOT/etc/modulefiles"
