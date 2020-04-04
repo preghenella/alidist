@@ -3,7 +3,7 @@ version: "%(short_hash)s"
 tag: "6af7e848585ce720e96a01d5565b1bd5e3884430"
 source: https://github.com/FairRootGroup/FairRoot
 requires:
-  - generators
+  - pythia6
   - simulation
   - ROOT
   - boost
@@ -93,7 +93,6 @@ module load BASE/1.0                                                            
             ${GEANT4_VMC_REVISION:+GEANT4_VMC/$GEANT4_VMC_VERSION-$GEANT4_VMC_REVISION}         \\
             ${PROTOBUF_REVISION:+protobuf/$PROTOBUF_VERSION-$PROTOBUF_REVISION}                 \\
             ${PYTHIA6_REVISION:+pythia6/$PYTHIA6_VERSION-$PYTHIA6_REVISION}                     \\
-            ${PYTHIA_REVISION:+pythia/$PYTHIA_VERSION-$PYTHIA_REVISION}                         \\
             ${VGM_REVISION:+vgm/$VGM_VERSION-$VGM_REVISION}                                     \\
             ${BOOST_REVISION:+boost/$BOOST_VERSION-$BOOST_REVISION}                             \\
             ROOT/$ROOT_VERSION-$ROOT_REVISION                                                   \\

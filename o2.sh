@@ -5,8 +5,6 @@ requires:
   - arrow
   - FairRoot
   - Vc
-  - hijing
-  - HepMC3
   - libInfoLogger
   - Common-O2
   - Configuration
@@ -15,7 +13,6 @@ requires:
   - FairMQ
   - curl
   - MCStepLogger
-  - AEGIS
   - fmt
   - DebugGUI
   - JAliEn-ROOT
@@ -181,7 +178,6 @@ module load BASE/1.0 \\
             ${DDS_REVISION:+DDS/$DDS_VERSION-$DDS_REVISION}                                         \\
             ${GCC_TOOLCHAIN_REVISION:+GCC-Toolchain/$GCC_TOOLCHAIN_VERSION-$GCC_TOOLCHAIN_REVISION} \\
             ${VC_REVISION:+Vc/$VC_VERSION-$VC_REVISION}                                             \\
-            ${HEPMC3_REVISION:+HepMC3/$HEPMC3_VERSION-$HEPMC3_REVISION}                             \\
             ${MONITORING_REVISION:+Monitoring/$MONITORING_VERSION-$MONITORING_REVISION}             \\
             ${CONFIGURATION_REVISION:+Configuration/$CONFIGURATION_VERSION-$CONFIGURATION_REVISION} \\
             ${LIBINFOLOGGER_REVISION:+libInfoLogger/$LIBINFOLOGGER_VERSION-$LIBINFOLOGGER_REVISION} \\
