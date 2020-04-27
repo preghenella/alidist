@@ -5,7 +5,7 @@ env:
     requests==2.21.0
     ipykernel==5.1.0
     ipython==7.4.0
-    ipywidgets==7.4.2
+    ipywidgets==7.5.0
     metakernel==0.20.14
     mock==2.0.0
     notebook==5.7.8
@@ -13,14 +13,14 @@ env:
     pandas==0.24.2
     PyYAML==5.1
     scikit-learn==0.20.3
-    scipy==1.2.1
+    scipy==1.4.1
     uproot==3.4.18
   PIP36_REQUIREMENTS: |
     Cython==0.29.16
     seaborn==0.9.0
     sklearn-evaluation==0.4
     Keras==2.2.4
-    tensorflow==1.13.1
+    tensorflow==2.2.0rc3
     xgboost==0.82
     dryable==1.0.3
     responses==0.10.6
