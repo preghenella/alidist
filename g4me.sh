@@ -32,7 +32,7 @@ module load BASE/1.0                                                            
             ${GCC_TOOLCHAIN_REVISION:+GCC-Toolchain/$GCC_TOOLCHAIN_VERSION-$GCC_TOOLCHAIN_REVISION} \\
             ${PYTHIA_REVISION:+pythia/$PYTHIA_VERSION-$PYTHIA_REVISION}                             \\
             ${ROOT_REVISION:+ROOT/$ROOT_VERSION-$ROOT_REVISION}                                     \\
-            ${ROOT_REVISION:+GEANT4/$GEANT4_VERSION-$GEANT4_REVISION}                               \\
+            ${ROOT_REVISION:+GEANT4/$GEANT4_VERSION-$GEANT4_REVISION}
 
 # g4me environment:
 set G4ME_ROOT \$::env(BASEDIR)/$PKGNAME/\$version
