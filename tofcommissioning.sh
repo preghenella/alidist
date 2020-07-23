@@ -6,6 +6,7 @@ requires:
   - FairLogger
   - FairMQ
   - O2
+  - QualityControl
 build_requires:
   - CMake
   - "GCC-Toolchain:(?!osx)"
@@ -39,6 +40,7 @@ module load BASE/1.0                                                            
             ${FAIRLOGGER_REVISION:+FairLogger/$FAIRLOGGER_VERSION-$FAIRLOGGER_REVISION}             \\
             ${FAIRMQ_REVISION:+FairMQ/$FAIRMQ_VERSION-$FAIRMQ_REVISION}                             \\
             ${O2_REVISION:+O2/$O2_VERSION-$O2_REVISION}                                             \\
+            ${QUALITYCONTROL_REVISION:+QualityControl/$QUALITYCONTROL_VERSION-$QUALITYCONTROL_REVISION}                                             
 
 # TOFCommissioning environment:
 set TOFCOMMISSIONING_ROOT \$::env(BASEDIR)/$PKGNAME/\$version
