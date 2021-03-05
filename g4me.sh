@@ -1,6 +1,6 @@
 package: g4me
 version: "%(tag_basename)s"
-tag: master
+tag: dev
 requires:
   - ROOT
   - pythia
